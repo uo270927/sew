@@ -94,3 +94,8 @@ a[href$=".html"] {
     padding-left: 50px;
     
 }
+
+/* Specificity (0,0,1)*/
+footer {
+    background-color: black;
+}
