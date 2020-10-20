@@ -1,0 +1,17 @@
+body {
+    display:grid;
+    grid: "h h h h"
+          "b a a a"
+          "f f f f";
+    grid-template-columns: auto 1fr 20%;
+    grid-template-rows: auto auto auto auto;
+}
+header {
+    grid-area: h; min-width: 12em;
+}
+section {
+    grid-area: a;
+}
+footer {
+    grid-area: f; min-width: 12em;
+}
